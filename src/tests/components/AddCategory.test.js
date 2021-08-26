@@ -27,7 +27,9 @@ describe('Pruebas en <AddCategory />', () => {
 
         input.simulate('change', { target: { value } });
 
-        expect( wrapper.find('p').text().trim() ).toBe( value );
+        const inputAfter = wrapper.find('input'); //se agrego para tomar el valor de input, luego de simular un cambio
+        {expect( inputAfter.prop('value') ).toBe( value );}
+        // {expect( wrapper.find('p').text().trim() ).toBe( value );}
         
     })
 
