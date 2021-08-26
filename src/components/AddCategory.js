@@ -20,7 +20,7 @@ export const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={ handleSubmit }>
-            <p> { inputValue } </p>
+            {/* <p> { inputValue } </p> Lo quitamos, porque se encontro una forma de analizar el input, verificar en el test  */}
             <input 
                 type="text"
                 value={ inputValue }

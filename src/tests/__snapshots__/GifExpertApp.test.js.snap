@@ -31,6 +31,11 @@ exports[`Pruebas en <GifExpertApp /> debe mostrarse correctamente 1`] = `
     setCategories={[Function]}
   />
   <hr />
-  <ol />
+  <ol>
+    <GifGrid
+      category="One Punch"
+      key="One Punch"
+    />
+  </ol>
 </Fragment>
 `;
