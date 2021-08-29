@@ -12,4 +12,6 @@ creado con:
 
 `npx create-react-app`
 
+### Github pages
+(https://jorge150896.github.io/react-gif/)
     
